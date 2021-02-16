@@ -1,1 +1,77 @@
 /** CSS STYLE **/
+.white {
+    color: #fff;
+}
+.transparent-white{
+    color:#d7ccc0
+}
+.blond{
+    color:;
+}
+.Main{
+    color: #fe8a02;
+}
+
+.Main Dark{
+    color : #42413c
+}
+.Dark {
+    color : #2a2626;
+}
+.Translucent Dark{
+    color: #908d8b;
+}
+
+.Brown {
+    color: #b09a81
+}
+.Blue{
+    color: #1085c5
+}
+/*Шрифты
+
+    В качестве основного шрифта используется Open Sans
+    Для заголовков используется шрифт Neucha
+    Размер шрифта: 16px
+    Межстрочный интервал: 1.6em
+    Цвет шрифта: #2A2626
+*/
+.font {
+    font:16px/1.6em Open Sans;
+    color: #2A2626;
+}
+
+/*Заголовки
+
+    Межстрочный интервал заголовков: 1.2em
+    Размер заголовка первого уровня: 72px
+    Размер заголовка второго уровня: 60px
+    Размер заголовка третьего уровня: 34px
+*/
+.font h1 {
+    font-family: Neucha;
+    line-height:1.2em;
+    font-size: 75px;
+}
+.font h2 {
+    font-family: Neucha;
+    line-height:1.2em;
+    font-size: 60px;
+}
+.font h3 {
+    font-family: Neucha;
+    line-height:1.2em;
+    font-size: 34px;
+}
+/*Секции
+
+    Ограничение по ширине контента: 1110px
+    Выравнивание по центру
+    Отступы по 100 пикселей сверху и снизу
+*/
+.sections{
+    max-width: 1110px;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
